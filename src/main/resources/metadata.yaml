@@ -1,3 +1,34 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@LudovicTravers 
+HETIC3
+/
+edycem-extensions
+Public
+forked from EDYCEM-BETON/edycem-extensions
+Code
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+edycem-extensions/src/main/resources/metadata.yaml
+@HETIC3
+HETIC3 Update metadata.yaml
+…
+Latest commit 0cc4bfb on 18 Aug
+ History
+ 2 contributors
+@emss-github@ErfanY
+Executable File  2205 lines (2205 sloc)  59.6 KB
+
 metadataVersion: 1
 extensions:
   - name: CUS_xt_MNS215_B_Pre_AddMedia
@@ -42,6 +73,15 @@ extensions:
         program: OIS101
         programType: INTERACTIVE
         method: PBCHK
+        advice: PRE
+    priority: 500
+    utilities:
+  - name: CUS_xt_PPS200_A_Chk_Pre_CheckFaciAndWhloCoherence
+    triggers:
+      - type: METHOD
+        program: PPS200
+        programType: INTERACTIVE
+        method: PACHK
         advice: PRE
     priority: 500
     utilities:
@@ -2203,3 +2243,17 @@ apis:
 utilities:
   - name: NumberUtils
   - name: DateUtils
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
